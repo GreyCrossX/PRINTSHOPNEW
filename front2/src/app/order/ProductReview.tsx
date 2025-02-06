@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { LocalOrder, ProductType, Users } from './page';
+import { LocalOrder, ProductType, Users } from '@/lib/schemas';
 import HoverCard from "./hoverCard";
 import OrderCard from "./orderCard";
 import FormWrapper from "@/components/FormWrapper";

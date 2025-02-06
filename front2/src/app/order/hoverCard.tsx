@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Order } from "./orderCard";
 import { DialogContent, DialogHeader, DialogTitle, DialogDescription, DialogFooter, Dialog } from "@/components/ui/dialog";
 import { Select, SelectContent, SelectItem, SelectTrigger } from "@/components/ui/select";
-import { LocalOrder, ProductType } from "./page";
+import { LocalOrder, ProductType } from "@/lib/schemas";
 import { AlertDialog, AlertDialogAction, AlertDialogCancel, AlertDialogContent, AlertDialogFooter, AlertDialogHeader, AlertDialogTitle, AlertDialogTrigger } from "@/components/ui/alert-dialog";
 import { AlertDialogDescription } from "@radix-ui/react-alert-dialog";
 import { Button } from "@/components/ui/button";

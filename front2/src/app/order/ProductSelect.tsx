@@ -3,7 +3,7 @@ import { CircleArrowLeft } from 'lucide-react';
 import { useDebouncedInputValues } from '@/hooks/useDebounceAsync';
 import FormWrapper from '@/components/FormWrapper';
 import { Input } from '@/components/ui/input';
-import { LocalOrder, ProductType } from './page';
+import { LocalOrder, ProductType } from '@/lib/schemas';
 
 type Props = {
     products: ProductType[];
