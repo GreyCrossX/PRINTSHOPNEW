@@ -6,6 +6,7 @@ certifi==2024.6.2
 chardet==5.2.0
 click==8.1.7
 cryptography==42.0.5
+guincorn==20.1.0
 idna==3.6
 Jinja2==3.1.3
 MarkupSafe==2.1.5
