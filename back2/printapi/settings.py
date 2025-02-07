@@ -137,18 +137,16 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CORS_ALLOWED_ORIGINS = [
-    'https://your-frontend-domain.com',  # Replace with your actual frontend domain
-]
+
 CORS_ALLOW_CREDENTIALS = True
-CORS_ORIGIN_ALLOW_ALL = False  # Change to False in production
+CORS_ORIGIN_ALLOW_ALL = True  # Change to False in production
 
 # Disable CSRF protection (only in development)
-CSRF_TRUSTED_ORIGINS = ['https://*.railway.app']  # Add your railway domain
+CSRF_TRUSTED_ORIGINS = ['https://printshopnew-production.up.railway.app/']  # Add your railway domain
 CSRF_COOKIE_SECURE = False
 
 # Security Headers
 SECURE_BROWSER_XSS_FILTER = True
 SECURE_CONTENT_TYPE_NOSNIFF = True
-SECURE_SSL_REDIRECT = True
+SECURE_SSL_REDIRECT = False
 SESSION_COOKIE_SECURE = True
