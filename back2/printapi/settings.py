@@ -30,7 +30,7 @@ SECRET_KEY = os.getenv('SECRET_KEY', 'your-default-secret-key-for-dev')
 DEBUG = os.getenv('DEBUG', 'False') == 'True'
 
 ALLOWED_HOSTS = [
-    'your-railway-domain.railway.app',  # Replace with your actual Railway domain
+    'printshopnew-production.up.railway.app/',  # Replace with your actual Railway domain
     'localhost',
     '127.0.0.1'
 ]
