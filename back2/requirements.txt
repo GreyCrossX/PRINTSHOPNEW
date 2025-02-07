@@ -15,6 +15,7 @@ packaging==24.1
 pillow==10.4.0
 pyparsing==3.1.2
 python-dateutil==2.9.0
+python-dotenv==0.21.1
 PyYAML==6.0.2
 requests==2.32.3
 six==1.16.0
