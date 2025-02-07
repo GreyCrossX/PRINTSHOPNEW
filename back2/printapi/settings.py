@@ -145,7 +145,7 @@ CORS_ORIGIN_ALLOW_ALL = False  # Change to False in production
 
 # Disable CSRF protection (only in development)
 CSRF_TRUSTED_ORIGINS = ['https://*.railway.app']  # Add your railway domain
-CSRF_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = False
 
 # Security Headers
 SECURE_BROWSER_XSS_FILTER = True
