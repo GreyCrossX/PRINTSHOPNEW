@@ -2,9 +2,9 @@ from django.core.management.base import BaseCommand
 from orders.models import Product, Variant
 
 class Command(BaseCommand):
-    help = 'Populate products and associate them with variants'
+    help = 'Populates the database with products'
 
-    def handle(self, *args, **kwargs):
+    def handle(self, *args, **options):
         # Define how much we need to subtract from the current IDs
         ID_OFFSET = 29
 

@@ -134,15 +134,28 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
+# CORS and CSRF Settings
 CORS_ALLOW_CREDENTIALS = True
-CORS_ORIGIN_ALLOW_ALL = True  # Change to False in production
+CORS_ORIGIN_ALLOW_ALL = False
 
-# Disable CSRF protection (only in development)
-CSRF_TRUSTED_ORIGINS = ['https://printshopnew-production.up.railway.app/']  # Add your railway domain
-CSRF_COOKIE_SECURE = False
+CORS_ALLOWED_ORIGINS = [
+    'https://printshopnew-production.up.railway.app',
+    'https://printshopnew-front-production.up.railway.app',
+    'https://printshopnew.vercel.app'  # Added Vercel frontend URL
+]
+
+CSRF_TRUSTED_ORIGINS = [
+    'https://printshopnew-production.up.railway.app',
+    'https://printshopnew-front-production.up.railway.app',
+    'https://printshopnew.vercel.app'  # Added Vercel frontend URL
+]
+
+# Security Settings
+CSRF_COOKIE_SECURE = True  # Changed to True since you're using HTTPS
+CSRF_COOKIE_SAMESITE = 'Lax'
+SESSION_COOKIE_SECURE = True
 
 # Security Headers
 SECURE_BROWSER_XSS_FILTER = True
 SECURE_CONTENT_TYPE_NOSNIFF = True
 SECURE_SSL_REDIRECT = False
-SESSION_COOKIE_SECURE = True
