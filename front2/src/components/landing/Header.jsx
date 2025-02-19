@@ -8,7 +8,7 @@ import { MenuIcon } from "lucide-react"
 import { Sheet, SheetTrigger, SheetContent, SheetHeader, SheetTitle } from "@/components/ui/sheet"
 import { Button } from "@/components/ui/button"
 
-import logosvg from "../../../public/logo_svg.svg"
+import logo from "../../../public/logo.webp"
 
 export default function Header() {
   const [scrollHeader, setScrollHeader] = useState(false)
@@ -41,7 +41,7 @@ export default function Header() {
         <div className="lg:hidden">
           <Sheet>
             <SheetTitle className="absolute top-4 pr-4 right-2">
-              <Image src={logosvg} alt="PrintShop logo" width={80} height={80} />
+              <Image src={logo} alt="PrintShop logo" width={80} height={80} />
 
             </SheetTitle>
             <SheetTrigger asChild>
@@ -58,7 +58,7 @@ export default function Header() {
               <SheetHeader>
                 <SheetTitle>
                   <Link href="/" aria-label="Ir a la página principal" prefetch={false}>
-                    <Image src={logosvg} alt="PrintShop logo" width={80} height={80} />
+                    <Image src={logo} alt="PrintShop logo" width={80} height={80} />
                   </Link>
                 </SheetTitle>
               </SheetHeader>
@@ -111,7 +111,7 @@ export default function Header() {
             prefetch={false}
             aria-label="Ir a la página principal"
           >
-            <Image src={logosvg} alt="PrintShop logo" width={100} height={100} />
+            <Image src={logo} alt="PrintShop logo" width={100} height={100} />
           </Link>
           <nav className="flex items-center space-x-6" aria-label="Navegación principal">
             <Link

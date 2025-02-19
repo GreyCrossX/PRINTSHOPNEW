@@ -147,7 +147,7 @@ CORS_ALLOWED_ORIGINS = [
 CSRF_TRUSTED_ORIGINS = [
     'https://printshopnew-production.up.railway.app',
     'https://printshopnew-front-production.up.railway.app',
-    'https://printshopnew.vercel.app'  # Added Vercel frontend URL
+    'https://printshopnew.vercel.app'
 ]
 
 # Security Settings

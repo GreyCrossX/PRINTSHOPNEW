@@ -12,16 +12,15 @@ const Services : ServiceCard[] = [
     title: "CAPACITACIÓN",
     color: "rgb(87, 185, 180)", // Turquoise
     items: [
-      "MANUALES",
-      "FOLLETOS",
-      "EXÁMENES",
-      "PÓSTERS",
-      "DIPLOMAS",
-      "FÓLDERS",
-      "CARPETAS",
-      "CALENDARIOS",
-      "GAFETES",
-      "LIBRETAS"
+      "IMPRESIÓN DIGITAL",
+      "IMPRESIÓN OFFSET",
+      "GRAN FORMATO",
+      "PROMOCIONALES + EMPAQUES",
+      "DISEÑO GRÁFICO",
+      "DATOS VARIABLES",
+      "JUST-IN-TIME",
+      "WEB-TO-PRINT",
+
     ]
   },
   {

@@ -4,15 +4,14 @@ import printer from "../../../public/printer2.webp";
 
 function Servicios() {
   const listItems = [
-    'Manuales',
-    'Folletos',
-    'Exámenes',
-    'Pósters',
-    'Diplomas',
-    'Fólders',
-    'Carpetas',
-    'Calendarios',
-    'Gafetes',
+    "IMPRESIÓN DIGITAL",
+    "IMPRESIÓN OFFSET",
+    "GRAN FORMATO",
+    "PROMOCIONALES + EMPAQUES",
+    "DISEÑO GRÁFICO",
+    "DATOS VARIABLES",
+    "JUST-IN-TIME",
+    "WEB-TO-PRINT",
   ];
 
   return (
