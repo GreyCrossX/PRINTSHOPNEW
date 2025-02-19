@@ -46,7 +46,7 @@ function Ventajas() {
       id="Ventajas"
       className="relative z-10 flex flex-col justify-between p-4 sm:p-6 lg:p-12 text-slate-50 bg-slate-400/50 lg:scroll-mt-20"
     >
-      <h2 className="text-[#034996] pt-4 pb-8 text-4xl font-bold">Ventajas</h2>
+      <h2 className="text-3xl font-bold text-center mb-12 text-[rgb(3,73,150)]">VENTAJAS</h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4 mx-auto">
         {Ventajasarray.map((card, index) => (
           <VentajasCard

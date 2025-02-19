@@ -82,7 +82,7 @@ export default function Hero() {
   id="banner"
   className="w-full flex flex-col justify-between items-center 
              bg-slate-50 text-slate-900 px-4 sm:px-8 pt-4 pb-0 
-             h-40 sm:h-48 md:h-56 lg:h-72"
+             h-40 sm:h-48 md:h-40 lg:h-48"
 >
   <div className="text-center">
     <h2 className="text-base sm:text-lg md:text-xl lg:text-3xl text-slate-900">
@@ -92,11 +92,11 @@ export default function Hero() {
       Servicio, Calidad y Puntualidad
     </p>
   </div>
-  <div className="flex w-full items-center justify-between">
-    <div className="flex-1 flex justify-start">
+  <div className=" w-full items-center justify-between">
+    <div className="absolute bottom-0 left-2">
       <HalfCircle percentage={99.9} label="Calidad" />
     </div>
-    <div className="flex-1 flex justify-end">
+    <div className="absolute right-2 bottom-0">
       <HalfCircle percentage={99.6} label="Puntualidad" />
     </div>
   </div>

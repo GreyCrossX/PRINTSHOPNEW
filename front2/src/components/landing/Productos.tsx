@@ -12,15 +12,16 @@ const Services : ServiceCard[] = [
     title: "CAPACITACIÓN",
     color: "rgb(87, 185, 180)", // Turquoise
     items: [
-      "IMPRESIÓN DIGITAL",
-      "IMPRESIÓN OFFSET",
-      "GRAN FORMATO",
-      "PROMOCIONALES + EMPAQUES",
-      "DISEÑO GRÁFICO",
-      "DATOS VARIABLES",
-      "JUST-IN-TIME",
-      "WEB-TO-PRINT",
-
+      "MANUALES",
+      "FOLLETOS",
+      "EXÁMENES",
+      "PÓSTERS",
+      "DIPLOMAS",
+      "FÓLDERS",
+      "CARPETAS",
+      "CALENDARIOS",
+      "GAFETES",
+      "LIBRETAS"
     ]
   },
   {
@@ -99,7 +100,7 @@ function Productos() {
       id="Productos"
       className="relative z-10 flex flex-col justify-between items-center  p-4 sm:p-6 lg:p-12 text-slate-50 bg-slate-300/50 lg:scroll-mt-20"
     >
-      <h2 className='text-blue-900 text-center px-[15%] text-md font-bold md:text-xl lg:text-2xl'>SIN IMPORTAR EL VOLÚMEN, RESOLVEMOS TUS NECESIDADES A TRAVÉS DEL SISTEMA O PROCESO QUE REQUIERA TU PROYECTO</h2>
+      <h2 className='text-blue-900 text-center px-[15%] text-md font-bold md:text-xl lg:text-2xl'>SIN IMPORTAR EL VOLUMEN, RESOLVEMOS TUS NECESIDADES A TRAVÉS DEL SISTEMA O PROCESO QUE REQUIERA TU PROYECTO</h2>
 <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 justify-between gap-4 pl-12'>
   {Services.map((card, index) => (
     <ProductCard

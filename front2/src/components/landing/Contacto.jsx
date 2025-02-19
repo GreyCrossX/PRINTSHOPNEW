@@ -7,7 +7,7 @@ export default function Contacto() {
         {/* Email Section */}
         <div className="flex flex-col items-center text-center p-6 border-r border-gray-200 last:border-0 shadow-custom">
           <Mail className="w-8 h-8 text-blue-600 mb-4" />
-          <h2 className="text-blue-600 font-bold mb-2">¡ESCRIBENOS!</h2>
+          <h2 className="text-blue-600 font-bold mb-2">¡ESCRÍBENOS!</h2>
           <a 
             href="mailto:info@digitalprintshop.com.mx" 
             className="text-gray-600 hover:text-blue-600 transition-colors"
@@ -19,7 +19,7 @@ export default function Contacto() {
         {/* Phone Section */}
         <div className="flex flex-col items-center text-center p-6 border-r shadow-custom border-gray-200 last:border-0">
           <Phone className="w-8 h-8 text-blue-600 mb-4" />
-          <h2 className="text-blue-600 font-bold mb-2">¡LLAMANOS!</h2>
+          <h2 className="text-blue-600 font-bold mb-2">¡LLÁMANOS!</h2>
           <div className="flex flex-col gap-1">
             <a 
               href="tel:+525555541189" 
@@ -39,11 +39,11 @@ export default function Contacto() {
         {/* Location Section */}
         <div className="flex flex-col items-center text-center p-6 shadow-custom">
           <MapPin className="w-8 h-8 text-blue-600 mb-4" />
-          <h2 className="text-blue-600 font-bold mb-2">¡VISITANOS!</h2>
+          <h2 className="text-blue-600 font-bold mb-2">¡VISÍTANOS!</h2>
           <address className="text-gray-600 not-italic">
             PROGRESO 136<br />
             BARRIO DE SANTA CATARINA<br />
-            04010 COYOACAN<br />
+            04010 COYOACÁN<br />
             CIUDAD DE MÉXICO
           </address>
         </div>
