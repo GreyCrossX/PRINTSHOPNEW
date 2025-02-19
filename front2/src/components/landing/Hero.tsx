@@ -71,7 +71,7 @@ export default function Hero() {
             EN IMPRESIÓN, DISEÑO Y<br />
             PROMOCIONALES
           </h1>
-          <p className="text-slate-50 p-2 sm:p-4 rounded-xl my-3 text-left text-sm sm:text-base lg:text-lg bg-slate-900/70 font-semibold">
+          <p className="text-slate-50  m-0 md:-mx-3 sm:p-4 rounded-xl my-3 text-left text-sm sm:text-base lg:text-lg bg-slate-900/70 font-semibold">
             ESTAMOS COMPROMETIDOS CON EL MEDIO AMBIENTE
           </p>
 
