@@ -15,7 +15,7 @@ export default function VentajasCard({ title, color, icon: Icon }: VentajasCards
         <Icon className="h-14 w-14" style={{ color }} />
       </div>
       <div
-        className="uppercase absolute bottom-6 w-full text-sm text-center text-white font-bold px-3 py-1"
+        className="uppercase absolute bottom-6 w-full text-[.72rem] text-center text-white font-bold px-3 py-1"
         style={{
           backgroundColor: color,
           clipPath: "polygon(0% 0%, 100% 0%, 95% 95%, 0% 100%)",
