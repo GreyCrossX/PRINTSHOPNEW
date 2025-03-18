@@ -67,13 +67,10 @@ export default function Hero() {
         />
         <div className="lg:w-[40%] md:w-[65%] w-full ml-auto flex flex-col items-start text-md">
           <h1 className={` text-xl sm:text-2xl md:text-3xl  xl:4xl font-bold text-shadow-lg`}>
-            SOLUCIONES INTEGRALES<br />
-            EN IMPRESIÓN, DISEÑO Y<br />
-            PROMOCIONALES
+            SOLUCIONES INTEGRALES EN<br />
+            IMPRESIÓN, PROMOCIONALES,<br />
+            EMPAQUES Y DISEÑO
           </h1>
-          <p className="text-slate-50  m-0 md:-mx-3 sm:p-4 rounded-xl my-3 text-left text-sm sm:text-base lg:text-lg bg-slate-900/70 font-semibold">
-            ESTAMOS COMPROMETIDOS CON EL MEDIO AMBIENTE
-          </p>
 
         </div>
       </div>
@@ -82,7 +79,7 @@ export default function Hero() {
   id="banner"
   className="w-full flex flex-col justify-between items-center 
              bg-slate-50 text-slate-900 px-4 sm:px-8 pt-4 pb-0 
-             h-40 sm:h-48 md:h-40 lg:h-48"
+             h-48"
 >
   <div className="text-center">
     <h2 className="text-base sm:text-lg md:text-xl lg:text-3xl text-slate-900">
@@ -91,6 +88,9 @@ export default function Hero() {
     <p className={`${Antro.className} text-blue-600 text-lg sm:text-xl md:text-3xl lg:text-5xl py-3 sm:py-6 font-bold`}>
       Servicio, Calidad y Puntualidad
     </p>
+    <p className={`text-slate-800 text-sm lg:text-xl max-w-[50%] mx-auto`}>
+      Comprometidos con el Medio Ambiente
+      </p>
   </div>
   <div className=" w-full items-center justify-between">
     <div className="absolute bottom-0 left-2">

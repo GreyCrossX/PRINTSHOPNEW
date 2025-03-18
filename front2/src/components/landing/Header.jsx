@@ -96,7 +96,7 @@ export default function Header() {
                   className="flex items-center w-full justify-center rounded-full bg-blue-500 px-4 py-2 text-sm font-semibold text-slate-50"
                   prefetch={false}
                 >
-                  SOLICITAR ORDEN DE TRABAJO
+                  ACCESO A CLIENTES
                 </Link>
               </nav>
             </SheetContent>
@@ -147,7 +147,7 @@ export default function Header() {
               className="inline-flex items-center justify-center rounded-full bg-blue-500 px-4 py-2 text-sm font-medium text-slate-50 transition-transform hover:scale-110 hover:bg-blue-600"
               prefetch={false}
             >
-              SOLICITAR ORDEN DE TRABAJO
+              ACCESO A CLIENTES
             </Link>
           </nav>
         </div>

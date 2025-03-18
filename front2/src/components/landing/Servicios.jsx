@@ -6,12 +6,11 @@ function Servicios() {
   const listItems = [
     "IMPRESIÓN DIGITAL",
     "IMPRESIÓN OFFSET",
+    "PROMOCIONALES",
+    "EMPAQUES",
     "GRAN FORMATO",
-    "PROMOCIONALES + EMPAQUES",
     "DISEÑO GRÁFICO",
     "DATOS VARIABLES",
-    "JUST-IN-TIME",
-    "WEB-TO-PRINT",
   ];
 
   return (
