@@ -84,20 +84,22 @@ export default function Header() {
                 >
                   VENTAJAS
                 </Link>
-                <Link
-                  href="/#Contacto"
-                  className="flex w-full items-center py-2 text-sm font-semibold"
-                  prefetch={false}
-                >
-                  CONTACTO
-                </Link>
-                <Link
-                  href="/order"
+                <Button
+                  onClick={() => {
+                    if (window.confirm("¿Deseas descargar el archivo promocionales?")) {
+                      const link = document.createElement("a");
+                      link.href = "https://cnmgxpktk9nbakz3.public.blob.vercel-storage.com/PROMOCIONALES%20PRINT%20SHOP%202025-plPfsnbiIBoR4dRIhsGWUBNftwoTAH.pdf";
+                      link.download = "PROMOCIONALES PRINT SHOP 2025.pdf";
+                      document.body.appendChild(link);
+                      link.click();
+                      document.body.removeChild(link);
+                    }
+                  }}
                   className="flex items-center w-full justify-center rounded-full bg-blue-500 px-4 py-2 text-sm font-semibold text-slate-50"
                   prefetch={false}
                 >
-                  ACCESO A CLIENTES
-                </Link>
+                  PROMOCIONALES
+                </Button>
               </nav>
             </SheetContent>
           </Sheet>
@@ -142,6 +144,22 @@ export default function Header() {
             >
               CONTACTO
             </Link>
+            <Button
+              onClick={() => {
+                if (window.confirm("¿Deseas descargar el archivo promocionales?")) {
+                  const link = document.createElement("a");
+                  link.href = "https://cnmgxpktk9nbakz3.public.blob.vercel-storage.com/PROMOCIONALES%20PRINT%20SHOP%202025-plPfsnbiIBoR4dRIhsGWUBNftwoTAH.pdf";
+                  link.download = "PROMOCIONALES PRINT SHOP 2025.pdf";
+                  document.body.appendChild(link);
+                  link.click();
+                  document.body.removeChild(link);
+                }
+              }}
+              className="inline-flex items-center justify-center rounded-full bg-blue-500 px-4 py-2 text-sm font-medium text-slate-50 transition-transform hover:scale-110 hover:bg-blue-600"
+              prefetch={false}
+            >
+              PROMOCIONALES
+            </Button>
             <Link
               href="/order"
               className="inline-flex items-center justify-center rounded-full bg-blue-500 px-4 py-2 text-sm font-medium text-slate-50 transition-transform hover:scale-110 hover:bg-blue-600"
@@ -153,5 +171,5 @@ export default function Header() {
         </div>
       </div>
     </header>
-  )
+  );
 }
