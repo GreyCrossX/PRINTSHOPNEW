@@ -61,7 +61,7 @@ export default function ContactForm() {
   }
 
   return (
-    <div className="mx-auto max-w-4xl p-4 md:p-6 lg:p-8 bg-white rounded-lg shadow-sm">
+    <div className="mx-auto max-w-4xl p-4 md:p-6 lg:p-8 bg-white rounded-lg shadow-sm" id="Contacto">
       <div className="flex flex-col md:flex-row gap-8 items-stretch">
         <div className="w-full md:w-1/4 flex justify-center md:justify-start">
           <div className="p-4 rounded-lg flex items-center justify-center w-32 h-full relative">
